@@ -2,7 +2,7 @@ require 'sinatra'
 require 'pdfkit'
 
 get '/' do
-  redirect "https://github.com/sinatra/sinatra"
+  redirect 'https://github.com/hackclub/bank-pdf-generator'
 end
 
 get '/ping' do

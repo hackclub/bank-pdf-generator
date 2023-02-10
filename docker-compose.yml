@@ -1,0 +1,6 @@
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - 4567:4567
