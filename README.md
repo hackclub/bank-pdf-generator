@@ -11,7 +11,9 @@ $ docker-compose up
 
 # This could time some time... [put on some smooth jazz or break out an instrument & play a smooth boogie](https://www.youtube.com/watch?v=ZEcqHA7dbwM)
 
-$ wget localhost:4567/pdf?url=https://theuselessweb.com/
+$ curl "localhost:4567/pdf?url=https://theuselessweb.com/" > test.pdf
+
+$ open test.pdf
 ```
 
 ## Uptime checking
