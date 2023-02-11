@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'pdfkit'
 
+set :port, ENV['PORT'] || 4567
+
 get '/' do
   redirect 'https://github.com/hackclub/bank-pdf-generator'
 end
