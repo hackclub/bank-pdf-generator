@@ -18,17 +18,16 @@ GEM
       rack-protection (= 3.0.5)
       tilt (~> 2.0)
     tilt (2.0.11)
-    wkhtmltopdf-binary-edge (0.12.6.0)
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   byebug
   pdfkit
   puma
   sinatra
-  wkhtmltopdf-binary-edge (~> 0.12.6.0)
 
 BUNDLED WITH
    2.3.8
